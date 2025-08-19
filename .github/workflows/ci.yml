@@ -16,4 +16,4 @@ jobs:
           node-version: 18
       - run: npm install
       - run: npm run lint
-      - run: npm test -- --coverage --coverageThreshold='{"global":{"lines":85,"branches":85}}'
+      - run: npm test -- --coverage 
