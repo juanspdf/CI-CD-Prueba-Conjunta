@@ -1,4 +1,4 @@
-const percentile = require('../src/utils/percentile');
+import percentile from './percentile.js';
 
 test('percentile 0', () => {
   expect(percentile(0, [1,2,3])).toBe(1.00);

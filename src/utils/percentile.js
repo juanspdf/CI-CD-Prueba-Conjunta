@@ -17,4 +17,5 @@ function percentile(p, values) {
   return Number(sorted[rank - 1].toFixed(2));
 }
 
-module.exports = percentile;
+export default percentile;
+
